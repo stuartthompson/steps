@@ -3,6 +3,14 @@ name = "steps"
 version = "0.1.0"
 authors = ["Stuart Thompson <stuart@stuartthompson.net>"]
 edition = "2018"
+description = "A task management application written in Rust."
+documentation = "https://docs.statn.dev/steps/index.html"
+readme = "README.md"
+homepage = "https://github.com/stuartthompson/steps"
+repository = "https://github.com/stuartthompson/steps"
+license = "GPL-3.0-or-later"
+keywords = ["terminal", "tasks", "todo", "cli"]
+categories = ["command-line-utilities", "command-line-interface"]
 
 [dependencies]
 crossterm = "0.19"
